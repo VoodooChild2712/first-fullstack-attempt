@@ -1,0 +1,46 @@
+.mainForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formTitle {
+    color: antiquewhite;
+    margin: 0;
+}
+
+.formRegister {
+    background-color: rgb(37, 10, 99);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.inputRegister {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonRegister {
+    height: 30px;
+    width: 30%;
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 90, 10);
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.buttonRegister:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

@@ -1,0 +1,28 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.musicContainer{
+    width: 30vw;
+    height: 90vh;
+    background-color: rgb(37, 10, 99);
+    border-radius: 20px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: antiquewhite;
+    border-bottom: 1px solid wheat;
+    margin: 20px;
+}
+
+.coverImg {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
